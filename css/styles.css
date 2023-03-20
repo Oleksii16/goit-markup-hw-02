@@ -1,7 +1,7 @@
 /*PORTFOLIO*/
 /*body*/
 body{
-  font-family: roboto; sans-serif
+  font-family: roboto; sans-serif;
     color: #434455;
   }
 /*logo*/
@@ -34,6 +34,7 @@ color: #2e2f42;
 }
 .list {
   text-decoration: none;
+  list-style: none;
 }
 .link:hover{
   color: #404bbf;
@@ -53,9 +54,9 @@ font-style: normal;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.link{
+/*.link{
   text-decoration: none;
-}
+}*/
 .mail:hover{
   color: #404bbf;
 }
@@ -64,11 +65,13 @@ font-style: normal;
 }
 .mail{
   text-decoration: none;
+}
+.mail {
   list-style: none;
 }
                       /*1 ul*/
 .list{
-  list-style: none;
+  /*list-style: none;*/
 }
 .filters{
   font-family: Roboto; sans-serif;
@@ -112,8 +115,7 @@ font-style: normal;
   background-color: #2e2f42;
 }
 /*spisok 1 sekcia*/
-.list{
-  list-style: none;
-}
+
 /*PORTFOLIO*/
+
 /*INDEX.HTML*/
