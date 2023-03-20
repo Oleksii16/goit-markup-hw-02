@@ -1,7 +1,7 @@
 /*PORTFOLIO*/
 /*body*/
 body{
-  font-family: Roboto; sans-serif;
+  font-family: 'Roboto', sans-serif;
     color: #434455;
   }
 /*logo*/
@@ -74,7 +74,7 @@ font-style: normal;
   /*list-style: none;*/
 }
 .filters{
-  font-family: Roboto; sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -120,10 +120,10 @@ font-style: normal;
 
 /*INDEX.HTML*/
 
-.sectionIndex{
+.sectionindex{
   background-color: #2e2f42;
 }
-.h1Index{
+.h1index{
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -132,7 +132,7 @@ font-style: normal;
 }
 .buttonorder{
   background-color: #4D5AE5;
-  font-family: roboto; sans-serif;
+  font-family: 'roboto',sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -177,4 +177,8 @@ color: #2e2f42;
 .section4-li{
   background-color: #FFFFFF;
 
+}
+.list-header{
+    list-style: none;
+    text-decoration: none;
 }
