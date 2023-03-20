@@ -1,3 +1,4 @@
+/*PORTFOLIO*/
 /*body*/
 body{
   font-family: roboto; sans-serif
@@ -31,6 +32,9 @@ color: #2e2f42;
 .link{
   text-decoration: none;
 }
+.list {
+  text-decoration: none;
+}
 .link:hover{
   color: #404bbf;
 }
@@ -60,6 +64,7 @@ font-style: normal;
 }
 .mail{
   text-decoration: none;
+  list-style: none;
 }
                       /*1 ul*/
 .list{
@@ -102,27 +107,13 @@ font-style: normal;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.link{
-  text-decoration: none;
-
+/*footer*/
+.fon-footer{
+  background-color: #2e2f42;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*spisok 1 sekcia*/
 .list{
   list-style: none;
 }
+/*PORTFOLIO*/
+/*INDEX.HTML*/
