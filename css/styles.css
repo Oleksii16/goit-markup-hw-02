@@ -1,7 +1,7 @@
 /*PORTFOLIO*/
 /*body*/
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
   body{
     color: #434455;
@@ -12,6 +12,7 @@ body{
   font-family: 'Raleway', sans-serif
 }*/
 .logo{
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -28,7 +29,7 @@ body{
     font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      color: #2e2f42;
+color: #434455;
       font-style: normal;
 }
 /*нижнее подчеркивание*/
@@ -55,10 +56,7 @@ text-decoration: none;
 
 /*addres_header*/
 .addres_header{
-
-}
-.addres_header{
-
+  font-style: normal;
 }
 
 
@@ -72,7 +70,7 @@ text-decoration: none;
 
 
 .filters{
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,23 +114,26 @@ text-decoration: none;
 
 /*INDEX.HTML*/
 .index-link{
+  line-height: 1.5;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-link{
+  line-height: 1.5;
   font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .contacts-link{
-    font-weight: 500;
-      font-size: 16px;
-      letter-spacing: 0.02em;
-      color: #2e2f42;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .sectionindex{
@@ -169,18 +170,21 @@ text-decoration: none;
 color: #2e2f42;
 }
 .sectiontwo-p{
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+letter-spacing: 0.02em;
+  color: #434455;
 }
 .section-3h{
-font-size: 36px;
-line-height: 1.11;
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 color: #2e2f42;
 }
-.section-index{
+
+/*.section-index{
   background-color: #F4F4FD;
   font-size: 36px;
   line-height: 1.11;
@@ -188,7 +192,7 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
+}*/
 .section4-li{
   background-color: #FFFFFF;
 
