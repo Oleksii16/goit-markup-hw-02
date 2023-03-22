@@ -21,7 +21,7 @@ body{
   color: #4d5ae5;
 }
 .class-span{
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
 /*NAV*/
@@ -90,8 +90,8 @@ text-decoration: none;
                       /*2 ul*/
 
 
-                    /*2 ul*/
-.list-2{
+/*sekcia 1 h*/
+.list-twoh{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -139,7 +139,7 @@ text-decoration: none;
 .sectionindex{
   background-color: #2e2f42;
 }
-.h1index{
+.hhindex{
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -203,11 +203,11 @@ background-color: #F4F4FD;
   background-color: #F4F4FD;
 
 }
-.section4-li{
+.sectionfour-li{
   background-color: #FFFFFF;
 }
 /*zagolovok 4 sekcia h3*/
-.section-3h{
+.sectionthree-h{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
