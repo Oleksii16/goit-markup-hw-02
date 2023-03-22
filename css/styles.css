@@ -24,6 +24,10 @@ body{
   color: #f4f4fd;
 }
 
+.class-spanhead{
+  color: #2e2f42;
+}
+
 /*NAV*/
 .mail{
     font-weight: 500;
