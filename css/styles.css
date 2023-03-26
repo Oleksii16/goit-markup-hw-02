@@ -44,13 +44,21 @@ body{
 /*.logo{
   font-family: 'Raleway', sans-serif
 }*/
+
+
+/*---LOGO---FOOTER---INDEX---*/
+
+.logo-footer-index {
+margin-left: 156px;
+margin-top: 100px;
+
+}
 .logo{
   font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 .class-span{
@@ -144,7 +152,24 @@ text-decoration: none;
 /*footer*/
 .fon-footer{
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
+/*---P--FOOTER---*/
+
+.footer-text{
+  display: flex;
+  margin-top: 16px;
+  margin-left: 156px;
+
+}
+
+
+
+
+
+
+
 /*spisok 1 sekcia*/
 
 /*PORTFOLIO*/
@@ -172,17 +197,25 @@ text-decoration: none;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+/*---SECTION---1---*/
 
 .sectionindex{
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
+
 .hhindex{
+  padding-top: 188px;
+  margin-left: 472px;
+  margin-right: 472px;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .buttonorder{
   background-color: #4D5AE5;
   font-family: 'Roboto',sans-serif;
@@ -192,13 +225,77 @@ text-decoration: none;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  padding: 0px;
+  border: 0px;
+  height: 56px;
+  width: 169px;
+  margin-top: 48px;
+  margin-left: 636px;
+  margin-right: 635px;
+
 }
+
 .buttonorder:hover{
   background-color: #404BBF;
 }
 .buttonorder:focus{
   background-color: #404BBF;
 }
+/*---SECTION---2*/
+
+.sectiontwoindex{
+}
+
+/*---H2---section-2----*/
+.hsection {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/*---UL-SECTION-2___*/
+.section-two-ul {
+  width: 1128px;
+  box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  margin-top: 120px;
+margin-bottom: 120px;
+margin-left: 156px;
+margin-right: 156px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+/*---LI-SECTION-2-LI-2---*/
+
+.section-two-li-two-index {
+margin-left: 24px;
+
+
+}
+
+/*---LI-SECTION-2-LI-3---*/
+
+.section-two-li-three-index {
+  margin-left: 24px;
+
+}
+
+/*---LI-SECTION-2-LI-4---*/
+
+.section-two-li-four-index {
+  margin-left: 24px;
+}
+
 .sectiontwoh{
   font-weight: 500;
   font-size: 20px;
@@ -206,6 +303,7 @@ text-decoration: none;
   letter-spacing: 0.02em;
 color: #2e2f42;
 }
+
 .sectiontwo-p{
   font-size: 16px;
   line-height: 1.5;
@@ -221,6 +319,29 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   color: #2e2f42 ;
   text-transform: capitalize;
+  width: 1128px;
+  margin-bottom: 120px;
+}
+
+/*---SECCIA-3-ZAGOLOWOK H 2---*/
+
+.section-threeh-h-two {
+}
+
+/*---UL-sekcia-3---*/
+
+.ul-section-three-index {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  margin-top: 72px;
+}
+
+/*---LI-3-SEKCIA---*/
+
+.li-two-section-three {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .section-threeh{
@@ -273,30 +394,206 @@ background-color: #F4F4FD;
 /*-----Otstupy---INDEX--*/
 
 
-/*---logo---*/
-.logo {
+/*---LOGO HEADER---*/
+
+.logo-header {
   box-sizing: border-box;
-    align-items: center;
-  margin-left: 156px;
-margin-top: 24px;
-margin-bottom: 24px;
+    margin-left: 156px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
+
 /*---MENU---NAV---*/
 nav {
 display: flex;
-margin-left: 347px;
-margin-top: 24px;
-  margin-bottom: 24px;
+border: box;
 }
 
 
-
-
-
+/*---BODY-HEADER-NAV-UL----*/
+.head-ul {
+  padding-left: 0px;
+margin-left: 76px;
+margin-top: 24px;
+margin-bottom: 24px;
+display: flex;
+width: 261px;
+}
 
 /*---STUDIO---*/
-.index-link {
+.index-studio {
+  margin-left: 0px;
 
 }
 
 /*---PORTFOLIO---*/
+.li-portfolio-index {
+  margin-left: 40px;
+}
+
+/*---CONTACTS---*/
+.contacts-link-index{
+  margin-left: 40px;
+  padding-right: 0px;
+}
+
+/*---ADRESS---HEADER---INDEX---*/
+.addres_header {
+  height: 24px;
+  display: flex;
+  margin-left: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+
+
+}
+/*---UL---ADRESS---INDEX---*/
+.adress-ulindex {
+display: flex;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+}
+
+/*---1---LI---ADRESS---UL---INDEX*/
+.adress-mail-li-index {
+margin-left: 0px;
+}
+
+/*---MAIL---INDEX---*/
+.mail-index {
+}
+
+/*---2-LI-ADRESS-HEADER---*/
+.li-number-adress-index-header {
+margin-left: 40px;
+
+}
+
+/*---number-adress-index-header---*/
+.number-adress-index-header {
+
+}
+
+header{
+  box-sizing: border-box;
+  width: 1440px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+main {
+
+}
+
+/*---SEKCIA-4-INDEX---*/
+
+.sectionfourindex {
+  width: 1440px;
+}
+
+/*---H2---SECTION-4---*/
+
+.h-two-section-four {
+  display: flex;
+  padding-top: 120px;
+  margin-left: 639px;
+
+}
+
+/*---UL-4sekcia---*/
+
+.ul-four-section-index {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+margin-top: 72px;
+padding-bottom: 120px;
+margin-bottom: 0px;
+}
+
+/*---LI-1-UL-SEKCIA-4---*/
+
+.section-four-li-one {
+display: flex;
+flex-direction: column;
+margin-left: 156px;
+
+}
+
+/*---LI-2-SEKCIA-4---*/
+
+.section-four-li-two {
+display: flex;
+flex-direction: column;
+margin-left: 24px;
+
+}
+
+.section-four-li-three {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.section-four-li-four {
+  display: flex;
+  flex-direction: column;
+  margin-right: 156px;
+margin-left: 24px;
+}
+
+/*===H3-SEKCIA=4===LI==1*/
+
+.h-mark {
+  margin-top: 32px;
+  margin-left: 65px;
+}
+
+.p-mark-guerrero {
+  margin-top: 8px;
+  margin-left: 68px;
+  padding-bottom: 32px;
+}
+
+/*====H3===tom ford===*/
+.h-three-tom-ford {
+  margin-top: 32px;
+  margin-left: 88px;
+}
+
+.p-frontend-developer {
+  margin-left: 60px;
+  padding-bottom: 32px;
+  margin-top: 8px;
+}
+
+/*===H3--camila-garcia===*/
+
+.h-camila {
+  margin-left: 67px;
+  padding-top: 32px;
+}
+
+/*    P   MARKETING   */
+
+.p-marketing {
+  margin-top: 8px;
+  margin-left: 94.5px;
+  padding-bottom: 32px;
+}
+
+/*---daniel wilson---*/
+
+.h-daniel-wilson {
+  margin-top: 32px;
+  margin-left: 68.5px;
+}
+
+.p-ui-designer {
+  margin-top: 8px;
+  margin-left: 89.5px;
+margin-bottom: 32px;
+
+}
